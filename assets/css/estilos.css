@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.5rem 3rem;
+    background-color: #006CFF;
+
+}
+
+.logo-txt h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-list ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.nav-item a:hover {
+    opacity: 0.8;
+}
+
+.nav-button button {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.nav-button button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.main-body {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #006CFF;
+}
+
+.texto-main {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.texto-main h1 {
+    color: white;
+}
+
+.texto-main p {
+    color: rgb(245, 242, 242);
+}
+
+.texto-main button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.quem-somos {
+    background-color: white;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 28px;
+}
+
+.texto-qs {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 25px;
+}
+
+.img-qs img {
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.esportes {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 0.3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.esportes h1 {
+    margin-bottom: 50px;
+}
+
+.nav-esportes {
+    display: flex;
+    gap: 20px;
+}
+
+.caixas-esportes {
+    display: flex;
+    flex-direction: column;
+    background-color: #006CFF;
+    color: white;
+    width: 210px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.caixas-esportes img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.caixas-esportes h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.caixas-esportes h3 i {
+    margin-right: 5px;
+}
+
+.caixas-esportes p {
+    font-size: 1.15rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+.caixas-esportes button {
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-right: 8px;
+    text-align: end;
+    transition: 0.2s;
+}
+
+.caixas-esportes button:hover {
+    background-color: rgb(224, 4, 4);
+}
+
+.caixas-esportes i {
+    justify-content: center;
+    font-size: 2rem;
+    background-color: red;
+    padding: 10px;
+    width: 35px;
+    border-radius: 10px;
+}
+
+.inscreva-se {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 0.3px solid white;
+}
+
+.inscricao form {
+    background-color: black;
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+
+.inscricao form .nome {
+    margin-bottom: 30px;
+}
+
+.txt {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.nossasede {
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nossasede-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nossasede-img img {
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.nossaequipe {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nossaequipe h2 {
+    margin-bottom: 50px;
+}
+
+.nossaequipe-list {
+    overflow: hidden;
+}
+
+.nossaequipe-list ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nossaequipe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nossaequipe-item img {
+    border-radius: 80px;
+    border: 0.4px solid red;
+    box-shadow: 0px 1px 3px;
+    cursor: pointer;
+}
+
+.nossaequipe-item img:hover {
+    opacity: 0.9;
+}
+
+.nossaequipe-item p {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 4rem;
+    background-color: #006CFF;
+}
+
+.footer-primary {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.footer-list-item {
+    color: white;
+}
+
+.footer-list-item h4 {
+    margin-bottom: 8px;
+}
+
+.footer-list-item a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(206, 202, 202);
+    transition: 0.2s;
+}
+
+.footer-list-item a:hover {
+    opacity: 0.7;
+    color: red;
+}
+
+.logo-footer img {
+    width: 100px;
+    height: 100px;
+}
